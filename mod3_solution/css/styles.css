@@ -1,0 +1,89 @@
+/************** Global styles ***************/
+
+body {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+}
+
+/*************** Base styles ***************/
+.menu-item {
+    background-color: #999999;
+    margin-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+}
+
+.menu-item h3 {
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 1.5em;
+}
+
+.menu-item-p {
+    text-align: justify;
+}
+
+.container.text-center {
+    margin-top: 20px;
+}
+
+.container.text-center h2 {
+    font-size: 2em;
+    margin-top: 30px;
+}
+
+.container-fluid {
+    padding: 20px;
+}
+
+/************** Navbar styles **************/
+.navbar {
+    margin-bottom: 0;
+    background-color: #999999;
+    border: 2px solid black;
+}
+
+.navbar-brand,
+.navbar-toggle .icon-bar {
+    color: black !important;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.navbar-toggle .icon-bar {
+    background-color: black !important;
+}
+
+/********** Mobile devices styles **********/
+@media (max-width: 767px) {
+
+    /* Mobile navbar */
+    .navbar-nav.visible-xs {
+        width: 100%;
+        background-color: #f8f8f8;
+        text-align: center;
+        margin: 0;
+    }
+
+    .navbar-nav.visible-xs li {
+        display: block;
+        text-align: center;
+        border: 1px solid black;
+    }
+
+    .navbar-collapse {
+        padding: 0;
+    }
+}
+
+/**** Desktop and tablets devices styles ****/
+@media (min-width: 767px) {
+
+    /* Columns in the grid */
+    #chicken,
+    #beef,
+    #sushi {
+        width: 100%;
+        float: none;
+    }
+}
